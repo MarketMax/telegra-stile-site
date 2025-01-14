@@ -4,20 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylish Telegra</title>
+    <title>Telegraph-Style News</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Create a Post</h1>
-        <input type="text" id="title" placeholder="Title" />
-        <textarea id="content" placeholder="Write your story here..."></textarea>
-        <button onclick="publish()">Publish</button>
-        <div id="output"></div>
-    </div>
+    <header>
+        <div class="logo">The Telegraph</div>
+        <nav>
+            <ul>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Money</a></li>
+                <li><a href="#">Opinion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="news-card">
+            <img src="image1.jpg" alt="News Image 1">
+            <h2>PM to pay damages to Gerry Adams</h2>
+            <p>Outcry from peers and IRA bomb victims as PM’s decision to repeal Troubles legislation means former Sinn Fein leader is in line for payout.</p>
+        </div>
+        <div class="news-card">
+            <img src="image2.jpg" alt="News Image 2">
+            <h2>Tulip Siddiq quits after ethics adviser rules she misled public</h2>
+            <p>Pictured: Tulip Siddiq leaving her house today. She faced criticism for her actions...</p>
+        </div>
+    </main>
     <footer>
-        <p>Made with ❤️ by MarketMax</p>
+        <p>&copy; 2025 The Telegraph. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
