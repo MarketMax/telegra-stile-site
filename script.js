@@ -14,4 +14,8 @@ function publish() {
         <p>${content.replace(/\n/g, "<br>")}</p>
     `;
     output.style.marginTop = "20px";
+    output.style.padding = "10px";
+    output.style.border = "1px solid #ddd";
+    output.style.borderRadius = "5px";
+    output.style.backgroundColor = "#f9f9f9";
 }
